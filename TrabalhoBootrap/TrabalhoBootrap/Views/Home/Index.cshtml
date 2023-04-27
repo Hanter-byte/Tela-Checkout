@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<br/>
+<div class="alert alert-secondary" role="alert">
+    <h1>Ótima escolha!</h1>
+    <p>Obrigado por comprar! Preencha seus dados para efetivar a compra.</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://www.vacaloca.com.br/upload/produto/imagem/camiseta-feminina-b-sica-verde-gua-baby-look.webp" class="card-img-top" alt="Imagem genérica de produto" />
+                <div class="card-body">
+                    <h5 class="card-title">Produto: Camisete Generica</h5>
+                    <p class="card-text">Cor: Verde</p>
+                    <p class="card-text">Tamanho: M</p>
+                    <p class="card-text">Preço: R$ 99,99</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <form>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" />
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="email">Numero - CVV:</label>
+                        <input type="email" class="form-control" id="email" name="email" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="cpf">Email:</label>
+                        <input type="text" class="form-control" id="cpf" name="cpf" />
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="cvv">Validade:</label>
+                        <input type="text" class="form-control" id="cvv" name="cvv" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="validade">CPF:</label>
+                        <input type="text" class="form-control" id="validade" name="validade" />
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="for m-check">
+                        <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter" />
+                        <label class="form-check-label" for="newsletter">
+                            Quero receber a newsletter
+                        </label>
+                    </div>
+                </div>
+                <br />
+                <div class="form-group row">
+                    <div style="text-align: right;">
+                        <button type="submit" class="btn btn-primary">Confirmar Pedido</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
